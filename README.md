@@ -1,4 +1,5 @@
 # DaddyTodo
+在线体验: https://todo.ctblog.top/
 
 DaddyTodo 是一款轻量级的 **TodoList** 和 **番茄钟** 应用，旨在帮助你高效地管理任务并提升工作效率。它通过简单、直观的界面，让你能够专注于任务，并利用 **番茄钟** 的时间管理方法提高生产力。数据完全保存在本地存储，确保你的隐私和数据安全。
 
@@ -35,10 +36,3 @@ DaddyTodo 是一款轻量级的 **TodoList** 和 **番茄钟** 应用，旨在�
 
   ```bash
   npm run dev
-
-
-### 技术栈
-前端：Next.js
-样式：TailwindCSS
-数据存储：浏览器LocalStorage
-部署平台: Vercel
