@@ -19,10 +19,10 @@ DaddyTodo 是一款轻量级的 **TodoList** 和 **番茄钟** 应用，旨在�
 - 不依赖服务器，数据仅保存在你的设备上，无需担心泄露。
 
 ### 技术栈
-前端：Next.js
-样式：TailwindCSS
-数据存储：浏览器LocalStorage
-部署平台: Vercel
+- 前端：Next.js
+- 样式：TailwindCSS
+- 数据存储：浏览器LocalStorage
+- 部署平台: Vercel
 
 ### 🛠️ 安装
 
