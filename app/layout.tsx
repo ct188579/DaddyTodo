@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { Aoboshi_One, Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "next-themes"
 import { ThemeToggle } from "./components/ThemeToggle"
