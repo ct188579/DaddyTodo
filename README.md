@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DaddyTodo
+在线体验: https://todo.ctblog.top/
 
-## Getting Started
+DaddyTodo 是一款轻量级的 **TodoList** 和 **番茄钟** 应用，旨在帮助你高效地管理任务并提升工作效率。它通过简单、直观的界面，让你能够专注于任务，并利用 **番茄钟** 的时间管理方法提高生产力。数据完全保存在本地存储，确保你的隐私和数据安全。
 
-First, run the development server:
+## 功能
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 📝 **TodoList**  
+- 创建、编辑和删除任务，帮助你有效组织和管理日常工作。
+- 支持标记任务完成与未完成，实时更新任务状态。
+- 简单直观的界面，帮助你轻松跟踪所有任务。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⏲️ **番茄钟**  
+- 设置工作时间段与休息时间段，帮助你保持高效和专注。
+- **语音提醒**：当番茄钟倒计时结束时，系统会通过语音提醒你，确保你不会错过任何工作或休息时间。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔐 **隐私保护**  
+- 所有任务和番茄钟数据均存储在 **浏览器本地存储** 中，确保你的数据不被外部访问，完全保障隐私。
+- 不依赖服务器，数据仅保存在你的设备上，无需担心泄露。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 技术栈
+- 前端：Next.js
+- 样式：TailwindCSS
+- 数据存储：浏览器LocalStorage
+- 部署平台: Vercel
 
-## Learn More
+### 🛠️ 安装
 
-To learn more about Next.js, take a look at the following resources:
+1. 克隆项目到本地：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/ct188579/DaddyTodo.git
+   
+2. 安装依赖：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    npm install
+    
+3. 启动应用：
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ```bash
+  npm run dev
