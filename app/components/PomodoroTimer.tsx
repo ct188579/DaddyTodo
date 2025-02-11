@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Play, Pause, RotateCcw, Brain, Coffee, Dumbbell, Box, Settings } from "lucide-react"
+import { Play, Pause, RotateCcw, Brain, Coffee, Dumbbell, Settings } from "lucide-react"
 import type React from "react"
 
 enum TimerMode {
