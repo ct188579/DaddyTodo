@@ -35,7 +35,7 @@ export default function RootLayout({
                 <div className="flex items-center space-x-4">
                   <Clock className="h-6 w-6 text-gray-600 dark:text-gray-300" />
                   <ThemeToggle />
-                  <Link href="https://ctblog.top" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://www.nextdaddy.cn" target="_blank" rel="noopener noreferrer">
                     <button className="flex items-center space-x-1 px-3 py-2 rounded-md bg-indigo-500 text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                       <ExternalLink className="h-4 w-4" />
                       <span>Blog</span>
